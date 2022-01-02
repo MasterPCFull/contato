@@ -18,7 +18,7 @@ default: &default
   adapter: postgresql
   encoding: unicode
   username: italo
-  password: italo123
+  password: italo
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   
 development:
