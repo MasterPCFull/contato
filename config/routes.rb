@@ -4,14 +4,17 @@ Rails.application.routes.draw do
   
   
 
+  get 'sessions/new'
   root to: "static_pages#index"
 
   get 'sobre', to: 'static_pages#sobre'
   get 'contato', to: 'static_pages#contato'
+  get 'entrar', to: 'sessions#new'
+  post 'entrar', to: 'sessions#create'
 
 # Resources
 
 resources :contacts
-resources :users, only: [ :new, :create ]
+resources :users, only: [ :new, :create, :show ]
   
 end

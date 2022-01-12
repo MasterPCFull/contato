@@ -16,7 +16,7 @@ pt-BR:
           blank: 'Não pode ser em branco'
           invalid: 'Inválido'
           taken: 'Já cadastrado'
-          confirmation: 'Não é igual. Insira a mesma senha.'
-          too_long: 'Muito grande. Maximo de %{count}  caracteres'
-          too_short: 'Muito curta. Minimo de %{count} caracteres'
+          confirmation: 'não é igual. Insira a mesma senha.'
+          too_long: 'muito grande. Maximo de %{count}  caracteres'
+          too_short: 'muito curta. Minimo de %{count} caracteres'
       
