@@ -3,4 +3,9 @@ class ApplicationController < ActionController::Base
 
     include SessionsHelper
 
+    private
+        def require_logged_in_user
+            flash[:danger] = 'area restrita.Por Favor, Realise o login'
+            redirect_to entrar_path
+        end
 end

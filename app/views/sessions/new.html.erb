@@ -3,7 +3,7 @@
     <h1>Entra</h1>
    </div>
 
-   <div class="col-md-6 col-md-offser-3 clon-xs-12"> 
+  <div class="col-md-6 col-md-offset-3 col-xs-12">
      <%= form_for :session, url: entrar_path, method: :post do |f| %>
 
         <div class="form-group">
@@ -16,7 +16,7 @@
             <%= f.password_field :password, placeholder: 'Senha', class: 'form-control' %>
         </div>
 
-        <%= f. submit 'Entrar', class: 'btn btn-primary' %>
+        <%= f.submit 'Entrar', class: 'btn btn-primary' %>
 
      <% end %>
 
