@@ -1,4 +1,4 @@
-class AddUserToContacts < ActiveRecord::Migration[6.1]
+class AddUserToContacts < ActiveRecord::Migration[5.0]
   def change
     add_reference :contacts, :user, foreign_key: true
   end

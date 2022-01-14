@@ -23,6 +23,10 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'coffee-rails',                 '~> 4.2'
+gem 'jquery-rails',                 '4.2.1'
+gem 'uglifier',                     '>= 1.3.0'
+
 #gem do bootstrap
 
 #gem "twitter-bootstrap-rails"
@@ -61,3 +65,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
